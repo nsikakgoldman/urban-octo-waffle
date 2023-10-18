@@ -15,6 +15,6 @@ def start_server(host, port):
                     break
                 print('Recieved:', data.decode())
                 # process the recieved information data (e.g, control IoT devices, store data, etc)
-
+                
 if __name__ == "__main__":
     start_server('127.0.0.1', 65432)
